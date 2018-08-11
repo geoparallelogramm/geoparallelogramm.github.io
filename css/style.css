@@ -1,0 +1,38 @@
+.container {
+	width: 900px;
+	margin: 0 auto;
+	font-size: 17px;
+}
+
+.title {
+	text-align: center;
+	color: #0e316f;
+}
+
+.table {
+	border: 1px solid lightgray;
+	border-collapse: collapse;
+}
+
+tr td {
+	padding: 10px;
+	vertical-align: top;
+	border-bottom: 1px solid lightgray;
+}
+
+tr td:nth-child(2) {
+	width: 62%;
+}
+
+tr:nth-child(2n+1) td {
+	background-color: #efefef;
+}
+
+tr:nth-child(2n) td {
+	background-color: #f6eaec;
+}
+
+.parallelogramm {
+	width: 215px;
+	height: auto;
+}
